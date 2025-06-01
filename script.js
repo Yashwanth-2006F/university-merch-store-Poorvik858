@@ -164,4 +164,4 @@ class Animal {
 }
 const dog = new Animal("Dog");
 console.log(dog.speak());
-
+added script
