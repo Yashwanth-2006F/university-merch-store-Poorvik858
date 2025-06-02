@@ -165,4 +165,28 @@ footer {
 .btn:hover {
   background-color: #1259a5;
 }
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .welcome-message {
+    font-size: 1.5rem;
+  }
 
+  .search-bar {
+    width: 90%;
+  }
+
+  .link-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .link-tile {
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 0.75rem;
+  }
+}
